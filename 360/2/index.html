@@ -1,0 +1,66 @@
+
+<html>
+<head>
+<title>360 Content Template</title>
+</head>
+<body>
+
+<span style="text-align:center;"><h2>360 Content Template</h2></span>
+To visit this room, press <b>TAB</b> from within JanusVR, and paste the url of this page into the dialogue box.
+
+<!--
+
+<FireBoxRoom>
+<Assets>
+
+#3D Pyramid Structure
+
+<AssetObject id="Main" src="Pyramid_Structure.dae" />
+<AssetObject id="Maincollison" src="Pyramid_Structure_Collision_Mesh.obj" />
+
+#Screen for the 360 degree image/video/gif/websurface
+
+<AssetObject id="Mercator_Projection_Screen" src="Mercator_Projection_Screen.obj" />
+
+#Skybox cubemap images 
+
+<AssetImage id="sky_left" src="skybox_left.png" />
+<AssetImage id="sky_right" src="skybox_right.png" />
+<AssetImage id="sky_front" src="skybox_front.png" />
+<AssetImage id="sky_back" src="skybox_back.png" />
+<AssetImage id="sky_up" src="skybox_up.png" />
+<AssetImage id="sky_down" src="skybox_down.png" />
+
+#Mercator projection Image/gif
+#use image_id="Mercator_projection_Image" on object Mercator_Projection_Screen
+
+<AssetImage id="Mercator_projection_Image" src="changeme.png" />
+
+#Mercator projection Websurface 
+#Use websurface_id="Mercator_projection_Web" on Mercator_Projection_Screen
+#width and height dicate the screen resolution, which is equvalent to the same resolution monitor. I reccomend 2x1 aspect ratio for Mercator projection
+
+<AssetWebSurface id="Mercator_projection_Web" src="http://www.insert360webpagehere.com" width="2000" height="1000" />
+
+#Mercator projection Video/Webm 
+#Use websurface_id="Mercator_projection_Video" on Mercator_Projection_Screen
+
+<AssetVideo id="Mercator_projection_Video" src="insertfilehere.mp4" auto_play="true" loop="true" />
+</Assets>
+<Room visible="false" pos="0 -3 12" xdir="-1 0 0.000002" ydir="0 1 0" zdir="-0.000002 0 -1" skybox_down_id="sky_down" skybox_front_id="sky_front" skybox_left_id="sky_left" skybox_back_id="sky_back" skybox_right_id="sky_right" skybox_up_id="sky_up" default_sounds="false" >
+
+#This is the pyramidal structure
+<Object id="Main" cull_face="none" lighting="false" collision_id="Maincollison" />
+
+
+#This is the spherical screen, scale changes the size
+#To change the thing displayed, substitute image_id part for the other supported media formats in the asset section above.
+<Object id="Mercator_Projection_Screen" lighting="false" image_id="Mercator_projection_Image" scale="7 7 7" pos="0 -1.6 0" xdir="-1 0 -0.000002" zdir="0.000002 0 -1" />
+
+</Room>
+</FireBoxRoom>
+
+-->
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+
+<html>
+<body>
+<!--
+<FireBoxRoom>
+<Assets>
+<AssetObject id="screen" src="spherescreen-large.obj.gz" />
+<AssetVideo id="video" src="http://yt.janusvr.com/getvideo.php?videoid=Gly33EsAROY" auto_play="true" loop="true" />
+</Assets>
+<Room bloom="0.25" server="presence.janusvr.com" port="5566" pos="0 0 0" xdir="1 0 0" ydir="0 1 0" zdir="0 0 1">
+<Object id="screen" js_id="0" pos="0 26.35 0" scale="96.3 96.3 96.3" lighting="false" video_id="video" />
+</Room>
+</FireBoxRoom>
+-->
+<style>
+.janusweb_sharing {
+    visibility:hidden;
+    display:none;
+}
+</style>
+<script src="https://web.janusvr.com/janusweb.js"></script>
+<script>
+elation.janusweb.init({
+        url: document.location.href,
+        showchat: false,
+        shownavigation: false,
+        usevoip: false,
+        picking: false,});
+</script>
+</body>
+</html>
